@@ -3,7 +3,6 @@ import Todos from './components/Todos';
 import './App.css';
 
 class App extends Component {
-
   state = {
     todos: [
       {
@@ -25,10 +24,9 @@ class App extends Component {
   }
   
   render() {
-    console.log(this.state.todos);
     return (
       <div className="App">
-        <Todos />
+        <Todos todos={this.state.todos} />
       </div>
     );
   }
