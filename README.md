@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React.Practice
 
-## Available Scripts
+#### _March 2020_
 
-In the project directory, you can run:
+#### By _**Marc Davies**_
 
-### `npm start`
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!--ts-->
+   * [Description](#description)
+   * [Technologies Used](#technologies-used)
+   * [Setup and Installation](#setup-and-installation)
+   * [Known Bugs](#known-bugs)
+   * [Support And Contact Details](#support-and-contact-details)
+<!--te-->
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application allows users to add and delete items from a list. Default access is read-only, users are invited to register or login to edit the list. This application was built following Traversy Media's "Learn the MERN Stack series": https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * _React 16.12.0_
+  * _Axios 0.19.2_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Setup and Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Launch your terminal.
+* `cd desktop` Navigate to the desktop.
+* `git clone "https://github.com/MarcLignarius/React.Practice"` Clone this repository to your desktop.
+* `cd React.Practice` Open up the cloned repository.
+* `npm install` This will allow the viewer of this project to have access to the CLI (command line interface) for webpack.
+* `npm run dev` to launch the app which will be hosted at  http://localhost:3000/
 
-### `npm run eject`
+Alternatively, visit https://marclignarius.github.io/React.Practice/ to see the live version of the application. Click the Home button to see the to do list.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Known Bugs
+There are no known bugs as of that last release.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Support and Contact Details
+Please contact me via <a href="https://www.linkedin.com/in/marcdaviesriot/">LinkedIn</a> if you have any questions. Your feedback is always welcomed!
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **_Marc Davies_**
