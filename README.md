@@ -19,7 +19,7 @@
 
 ## Description
 
-This application allows users to add and delete items from a list. Default access is read-only, users are invited to register or login to edit the list. This application was built following Traversy Media's "Learn the MERN Stack series": https://www.youtube.com/watch?v=PBTYxXADG_k&list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE.
+This application allows users to add and delete items from a list. Built following along with a React Crash Course tutorial.
 
 ## Technologies Used
 
