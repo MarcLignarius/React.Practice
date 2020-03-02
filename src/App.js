@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./components/layout/Header";
 import Todos from "./components/Todos";
 import "./App.css";
 
@@ -7,17 +8,17 @@ class App extends Component {
     todos: [
       {
         id: 1,
-        title: "take out the trash",
+        title: "continue practicing coding",
         completed: false
       },
       {
         id: 2,
-        title: "dinner with wife",
+        title: "apply for jobs",
         completed: false
       },
       {
         id: 3,
-        title: "meeting with boss",
+        title: "be kind to yourself",
         completed: false
       }
     ]
@@ -43,6 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header />
         <Todos todos={this.state.todos} toggleComplete={this.toggleComplete} deleteTodo={this.deleteTodo} />
       </div>
     );
